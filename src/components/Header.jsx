@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className={style.header}>
             <nav className="container">
-                <h5>House Of Gamers</h5>
+                <h5>House Of Gamers 2024</h5>
                 <Canvas/>
             </nav>
         </header>
