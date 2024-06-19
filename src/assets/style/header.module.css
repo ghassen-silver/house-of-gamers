@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.header *{
+    margin: 0;
+    
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    margin: 0 auto;
+}
+
+.header h5,.header p{
+    cursor: pointer;
+}
+.header svg{
+    font-size: 1.5rem;
+}
+
+
+.icon{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    font-size: 0.7rem;
+    background-color: rgb(211, 33, 33);
+    top: -8px;
+    right: -5px;
+    display: block;
+    padding-inline: .2rem;
+    border-radius: 4px;
+}

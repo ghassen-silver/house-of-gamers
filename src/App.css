@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{
+    height: 550px;
+}
+main{
+    margin-top: 2rem;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.search div{
+    flex-basis: 60%;
+   width: 100%;
+}
+.search select{
+    flex-basis: 20%;
+    background-color: white;
+    border: .5px solid gainsboro;
+    padding:.4rem ;
+    border-radius:5px ;
+}
+.search input{
+    width: 85%;
+    border: .5px solid gainsboro;
+    padding:.4rem ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}  
+.search button{
+    width: 15%;
+    background-color: white;
+    border: .5px solid gainsboro;
+    padding:.4rem ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(136, 136, 136);
+}
+
+.cardList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.productCard {
+    flex-basis: 26%;
+    border: .2px solid rgb(176, 176, 176);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+}
+.productCard:hover .add{
+    opacity: 1;
+}
+.productCard img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 290px;
+}
+.info{
+    padding-inline: 0.5rem;
+    margin-block:.7rem ;
+    display: flex;
+    flex-direction: column;
+}
+.info svg{
+    color: gold;
+}
+b{
+    margin-block: 1rem;
+}
+.add{
+    position: absolute;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-block: 1.7rem;
+    bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.1s ease-in ;
+}
+.add span{
+    padding-right: .2rem;
+}
+.offcanvas{
+    padding-inline: 1rem;
+}
+.offcanvas-header{
+    border-bottom: .5px solid rgb(216, 216, 216);
+}
+.btn-light{
+    border: .2px solid gainsboro;
+}
+
+.shopCard{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: .5px solid rgb(216, 216, 216);
+margin-bottom: 1rem;
+padding-bottom: 0.2rem;
+}
+.shopCard img{
+    width: 100%;
+}
+.shopCard p{
+    margin-bottom: 5px;
+}
+
+.shopCard svg{
+    font-size: 1.4rem;
+    color: rgb(227, 51, 51);
+    cursor: pointer;
+}
+
+.shopCard div:first-child{
+    flex-basis: 27%;
+}
+.shopCard div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;  
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total button{
+    border: .5px solid gainsboro;
+    background-color: white;
+    padding: .3rem 1.2rem;
+    border-radius: 5px;
+}
